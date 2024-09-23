@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* HEADER TOP */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  background-color: #FFF0D1;
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin: 15px 15px 0;
+  border: 1px solid black;
+  padding: 15px 15px 12px 15px;
+}
+
+#search-form {
+  float: right;
+  margin: 35px 0 0;
+}
+
+#search-form input {
+  width: 16.5rem;
+  padding: 6px 2px;
+  text-align: center;
+}
+
+/* NAV */
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-top: none;
+  margin: 0 15px;
+  padding: 8px 15px 8px 15px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+.navbar li a {
+
+  text-decoration: none;
+  color: black;
+}
+
+.separator {
+  margin: 0 0.5rem;
+}
+
+#login-form input {
+  width: 8rem;
+  padding: 6px 2px;
+  text-align: center;
+}
+
+/* MAIN CONTENT */
+main {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 200px 1fr 225px;
+  gap: 15px;
+  width: 100%;
+
+
+}
+
+
+
+/* LEFT-SIDE */
+.left-side {
+  margin: 15px;
+}
+
+.filter-brand {
+  border: 1px solid black;
+  border-bottom: none;
+  margin: 15px;
+  width: 100%;
+}
+
+.filter-brand ul {
+  list-style: none;
+}
+
+.filter-brand ul li {
+  padding: 15px 15px;
+  border-bottom: 1px solid black;
+}
+
+.list-articles {
+  border: 1px solid black;
+  border-bottom: none;
+  margin: 15px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.list-articles ul li, .sub-list {
+  list-style: none;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.list-articles .active {
+  text-align: right;
+}
+
+.list-articles li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CENTER */
+.center-area {
+  width: 100%;
+  margin: 15px;
+}
+
+.center {
+  border: 1px solid black;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 15px;
+}
+
+.product {
+  display: flex;
+  height: 620px;
+}
+
+
+.big-image {
+  width: 100%;
+  height: 400px;
+}
+
+.small-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.product-description {
+  border: 1px solid black;
+  padding: 8px;
+  margin-left: 15px;
+  width: 100%;
+  text-align: justify;
+}
+
+.big-button-cart {
+  width: 100%;
+  padding: 15px;
+  margin-top: 112px;
+}
+
+.card-content {
+  margin-top: 20px
+}
+
+.card-content h3 {
+  padding-left: 82px;
+}
+
+.card-content-product {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  gap: 20px;
+  height: auto;
+}
+
+.more-product-card {
+  padding-right: 20px;
+  margin: 0;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT-SIDE */
+.right-sidebar {
+  width: 86.7%;
+  margin-right: 15px;
+  margin: 15px;
+  height: auto;
+}
+
+.cart-content {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column
+}
+
+.cart {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.cart-items {
+  font-size: 13px;
+}
+
+.cart-items li {
+  list-style: none;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.price {
+  float: right;
+}
+
+.big-button {
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+  border: none;
+}
+
+.subscribe {
+  border: 1px solid black;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.email-sub {
+  margin-top: 16px;
+  padding: 5px 8px;
+  width: 178px;
+}
+
+.big-button-sub {
+  width: 100%;
+  margin-top: 8px;
+  padding: 5px 8px;
+  text-align: start;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* FOOTER */
+
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin: 20px;
+}
+
+.footer-columns ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.span-news a {
+  text-decoration: none;
+  color: black;
+  align-items: end;
+  justify-content: end;
+}
